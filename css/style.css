@@ -184,7 +184,7 @@ select {
 
 .avantage {
   background-color: #FFFFFF;
-  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  box-shadow: 0 10px 18px #111827;
   display: flex;
   justify-content: space-between;
 }
@@ -263,7 +263,7 @@ a {
 }
 
 .programme {
-  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  box-shadow: 0 10px 18px #111827;
   text-align: center;
   border-radius: 10px;
 }
@@ -321,7 +321,7 @@ td {
 
 .coach {
   border-radius: 10px;
-  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  box-shadow: 0 10px 18px #111827;
 }
 
 .badges {
@@ -361,7 +361,7 @@ td {
 
 form {
   width: 50%;
-  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  box-shadow: 0 10px 18px #111827;
   border: 2px solid black;
   margin: 0 auto;
   padding: 20px;
