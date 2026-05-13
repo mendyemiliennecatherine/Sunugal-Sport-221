@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #F9FAFB;
   padding-top: 100px;
   overflow-x: hidden;
@@ -41,6 +41,10 @@ select {
   border-bottom: 1px solid #d9e3f2;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat", sans-serif;
+}
+
 .container_logo {
   display: flex;
   justify-content: space-between;
@@ -57,7 +61,7 @@ select {
   display: flex;
   align-items: center;
   font-size: 25px;
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
@@ -92,13 +96,14 @@ select {
 
 .hero {
   width: 80%;
-  height: 330px;
+  height: 350px;
   background-color: blanchedalmond;
   display: flex;
   justify-content: space-around;
   margin: auto;
   margin-top: 30px;
   border-radius: 12px;
+  align-items: center;
 }
 
 .slogan {
@@ -107,13 +112,16 @@ select {
   color: #1F2937;
   padding-left: 10px;
   padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+
 }
 
 .text-slogan {
   margin-top: 30px;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 600;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif ;
 }
 
 .btn-inscr {
@@ -201,7 +209,7 @@ select {
   font-weight: bold;
   color: #FACC15;
   padding: 8px;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .para {
@@ -509,11 +517,11 @@ select {
     height: 60px;
   }
 
-  .coach{
+  .coach {
     text-align: center;
   }
 
-  .voirprofil{
+  .voirprofil {
     width: 80%;
   }
 
@@ -566,10 +574,10 @@ select {
   }
 
   .avantages {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  footer{
+  footer {
     height: 200px;
   }
 
@@ -582,8 +590,8 @@ select {
     padding-top: 30px;
   }
 
-  .programmes{
-    grid-template-columns: repeat(1,1fr);
+  .programmes {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .voirprofil {
@@ -603,21 +611,21 @@ select {
     height: 50px;
   }
 
-  thead span{
+  thead span {
     font-size: 10px;
   }
 
-  .ccc{
+  .ccc {
     margin-top: 35px;
   }
 
-  .coachs{
+  .coachs {
     width: 80%;
     margin-top: 20px;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .voirplus{
+  .voirplus {
     color: #111827;
   }
 
