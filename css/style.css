@@ -583,6 +583,7 @@ select {
 
   .voirprofil {
     width: 150px;
+    color: #111827;
   }
 
   table {
@@ -607,6 +608,10 @@ select {
     grid-template-columns: repeat(1,1fr);
   }
 
+  .voirprofil{
+    color: #111827;
+  }
+
   form {
     width: 92%;
   }
@@ -617,6 +622,7 @@ select {
 
   .envoyer {
     margin-top: 30px;
+    color: #111827;
   }
 
 }
