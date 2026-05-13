@@ -566,7 +566,7 @@ select {
   }
 
   .avantages {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
   }
 
   .rect {
@@ -579,7 +579,7 @@ select {
   }
 
   .programmes {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1,1fr);
   }
 
   .voirprofil {
@@ -609,7 +609,7 @@ select {
     grid-template-columns: repeat(1,1fr);
   }
 
-  .voirprofil{
+  .voirplus{
     color: #111827;
   }
 
