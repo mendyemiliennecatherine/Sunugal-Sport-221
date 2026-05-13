@@ -1,0 +1,616 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #F9FAFB;
+  padding-top: 100px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #111827;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #d9e3f2;
+}
+
+.container_logo {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  color: #E63946;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #E63946;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: #E63946;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 999px;
+  transition: 0.3s ease;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  color: #FACC15;
+  outline: none;
+}
+
+.nav a:active {
+  color: antiquewhite;
+}
+
+.hero {
+  width: 80%;
+  height: 330px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.slogan {
+  font-size: 45px;
+  font-weight: bold;
+  color: #1F2937;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.text-slogan {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.btn-inscr {
+  background-color: #E63946;
+  font-weight: 100;
+  font-size: 20px;
+  height: 50px;
+  width: 210px;
+  border-radius: 14px;
+  margin-top: 30px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.btn-inscr a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.histoire {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.badge {
+  width: 120px;
+  height: 35px;
+  margin-left: 700px;
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FACC15;
+  font-weight: bold;
+}
+
+.histoire h3 {
+  margin: 30px auto;
+  font-size: 30px;
+  color: #E63946;
+  text-align: center;
+}
+
+.histoire p {
+  margin-bottom: 40px;
+  color: #1F2937;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.avantages {
+  width: 80%;
+  margin-top: 40px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.avantage {
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  display: flex;
+  justify-content: space-between;
+}
+
+.avantage i {
+  width: 50px;
+  height: 40px;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.titre {
+  font-weight: bold;
+  color: #FACC15;
+  padding: 8px;
+
+}
+
+.para {
+  color: #1F2937;
+  margin-left: 8px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #111827;
+  margin-top: 40px;
+  color: #FFFFFF;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+a {
+  color: #FACC15;
+}
+
+.rect {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background: linear-gradient(90deg, red, #111827);
+  margin-top: 40px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 3.5;
+}
+
+.rect p {
+  margin-top: 50px;
+  color: #1F2937;
+  font-weight: 700;
+}
+
+.rect h2 {
+  font-size: 50px;
+}
+
+.rect span {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.programmes {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.programme {
+  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.titre2 {
+  font-size: 30px;
+  color: #E63946;
+}
+
+.voirplus {
+  width: 75%;
+  height: 30px;
+  background-color: #E63946;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+table {
+  width: 50%;
+  height: 450px;
+  margin: auto;
+  margin-top: 40px;
+  border: 2px solid #FACC15;
+}
+
+thead {
+  background-color: #111827;
+  color: #E63946;
+  height: 100px;
+  font-size: 23px;
+}
+
+thead span {
+  color: #484b50;
+}
+
+tbody {
+  background-color: burlywood;
+}
+
+td {
+  padding-left: 20px;
+  color: #1F2937;
+  font-weight: 700;
+}
+
+.coachs {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.coach {
+  border-radius: 10px;
+  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+}
+
+.badges {
+  width: 25%;
+  height: 25px;
+  background-color: #FACC15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #111827;
+  background-color: FFFFFF;
+}
+
+.coach h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.coach p {
+  padding-left: 15px;
+  color: #6B7280;
+}
+
+.voirprofil {
+  width: 30%;
+  height: 30px;
+  background-color: #E63946;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin: 20px;
+}
+
+form {
+  width: 50%;
+  box-shadow: 0 10px 18px rgba(13, 44, 101, 0.18);
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+form h2 {
+  color: #111827;
+  text-decoration: underline;
+}
+
+.duo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.champ {
+  width: 95%;
+  margin-top: 30px;
+
+}
+
+.champ input {
+  width: 80%;
+  height: 50px;
+  padding-left: 10px;
+}
+
+select {
+  width: 80%;
+  height: 50px;
+}
+
+.footer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.envoyer {
+  width: 100%;
+  height: 50px;
+  background-color: #E63946;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+
+@media (max-width:1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .hero {
+    width: 80%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .slogan {
+    line-height: 0.8;
+  }
+
+  .btn-inscr {
+    margin-bottom: 20px;
+    margin: 20px auto;
+  }
+
+  .badge {
+    margin: 30px auto;
+    width: 150px;
+  }
+
+  .histoire {
+    margin-left: 168px;
+    text-align: center;
+  }
+
+  .rect p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .badges {
+    width: 150px;
+  }
+}
+
+@media (max-width: 860px) {
+  .header {
+    align-items: center;
+  }
+
+  .container_logo {
+    width: 30%;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .nav {
+    justify-content: end;
+    gap: 0;
+  }
+
+  .hero {
+    height: 620px;
+  }
+
+  .rect {
+    text-align: center;
+  }
+
+  .programmes {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+  }
+
+  .aaa {
+    width: 60%;
+    margin: auto;
+  }
+
+  table {
+    width: 80%;
+  }
+
+  thead {
+    font-size: 18px;
+  }
+
+  tr {
+    height: 60px;
+  }
+
+  .coach{
+    text-align: center;
+  }
+
+  .voirprofil{
+    width: 80%;
+  }
+
+  form {
+    width: 80%;
+  }
+
+}
+
+@media(max-width:480px) {
+
+  .header {
+    height: 80px;
+  }
+
+  .container_logo {
+    align-items: center;
+  }
+
+  .logo {
+    width: 70px;
+    height: 50px;
+  }
+
+  .title {
+    font-size: 10px;
+  }
+
+  .nav {
+    justify-content: end;
+    gap: 0;
+    line-height: 1.0;
+  }
+
+  .nav a {
+    font-size: 20px;
+  }
+
+  .histoire {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .hero {
+    margin-top: 25px;
+    height: 650px;
+  }
+
+  .avantages {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rect {
+    line-height: 1.3;
+    height: 300px;
+  }
+
+  .rect span {
+    padding-top: 30px;
+  }
+
+  .programmes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .voirprofil {
+    width: 150px;
+  }
+
+  table {
+    width: 80%;
+  }
+
+  thead {
+    font-size: 16px;
+  }
+
+  tr {
+    height: 50px;
+  }
+
+  .ccc{
+    margin-top: 35px;
+  }
+
+  form {
+    width: 92%;
+  }
+
+  select {
+    width: 90%;
+  }
+
+  .envoyer {
+    margin-top: 30px;
+  }
+
+}
