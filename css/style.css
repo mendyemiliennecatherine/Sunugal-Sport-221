@@ -603,6 +603,10 @@ select {
     height: 50px;
   }
 
+  thead span{
+    font-size: 10px;
+  }
+
   .ccc{
     margin-top: 35px;
   }
@@ -610,6 +614,7 @@ select {
   .coachs{
     width: 80%;
     margin: auto;
+    margin-top: 20px;
     grid-template-columns: repeat(1,1fr);
   }
 
