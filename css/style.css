@@ -601,6 +601,11 @@ select {
     margin-top: 35px;
   }
 
+  .coachs{
+    width: 80%;
+    margin: auto;
+  }
+
   form {
     width: 92%;
   }
