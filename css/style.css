@@ -562,6 +562,7 @@ select {
   .hero {
     margin-top: 25px;
     height: 650px;
+    margin: auto;
   }
 
   .avantages {
