@@ -603,6 +603,10 @@ select {
     height: 50px;
   }
 
+  td{
+    width: 25%;
+  }
+
   thead span{
     font-size: 10px;
   }
